@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+height: 100%;
+}
+a,
+button,
+.btn,
+img,
+input {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+/* ...............navbar................... */
+.header ul li{
+  list-style: none;
+   /* margin-left:130px; */
+  padding: 0 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.btone{
+color: rgb(255, 255, 255);
+background-color: black;
+}
+.btone:hover{
+background-color: rgb(63, 211, 66);
+}
+.navbar-nav a:hover{
+  background: #f5f7f6;
+  border-radius: 5px;
+  color: black;
+}
+.car{
+  font-family: 'Amatic SC', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster Two', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Slabo 27px', serif;
+}
+/* ................carausel.............. */
+#btn {
+  margin-left: 20px;
+  background: #34d94a;
+  background-image: -webkit-linear-gradient(top, #34d94a, #7ba84c);
+  background-image: -moz-linear-gradient(top, #34d94a, #7ba84c);
+  background-image: -ms-linear-gradient(top, #34d94a, #7ba84c);
+  background-image: -o-linear-gradient(top, #34d94a, #7ba84c);
+  background-image: linear-gradient(to bottom, #34d94a, #7ba84c);
+  -webkit-border-radius: 22;
+  -moz-border-radius: 22;
+  border-radius: 22px;
+  -webkit-box-shadow: 2px 2px 1px #666666;
+  -moz-box-shadow: 2px 2px 1px #666666;
+  box-shadow: 2px 2px 1px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #040a0d 0.5px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background: #89fc3c;
+  background-image: -webkit-linear-gradient(top, #89fc3c, #6bd934);
+  background-image: -moz-linear-gradient(top, #89fc3c, #6bd934);
+  background-image: -ms-linear-gradient(top, #89fc3c, #6bd934);
+  background-image: -o-linear-gradient(top, #89fc3c, #6bd934);
+  background-image: linear-gradient(to bottom, #89fc3c, #6bd934);
+  text-decoration: none;
+}
+.on{
+  margin-top: 50px;
+  margin-right: 1200px;
+}
+.on p{
+  font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster Two', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Slabo 27px', serif;
+  color:rgb(0, 0, 0);
+  /* font-size: 50px; */
+}
+.on h2{
+  font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster Two', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Slabo 27px', serif;
+  color: rgb(0, 0, 0);
+  /* font-size: 110px; */
+}
+.on h3{
+  color: rgb(42, 178, 42);
+  font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster Two', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Slabo 27px', serif;
+  /* font-size: 50px; */
+}
+/* ......................triple Box................................ */
+.one{
+  font-family: 'Amatic SC', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster Two', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Slabo 27px', serif;
+}
+/* ..............................card................... */
+.demo1{
+  font-family: 'Amatic SC', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Lobster Two', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Satisfy', cursive;
+  font-family: 'Slabo 27px', serif;
+}
+#main h3{
+  color: #508D69;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#main h3:hover{
+  color: rgb(44, 194, 59);
+}
+#main{
+  margin-top: 20px;
+  text-align: center;
+}
+#container2 h3{
+  color: #508D69;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#container2 h3:hover{
+  color: rgb(44, 194, 59);
+}
+#container2{
+  margin-top: 15px;
+}
+/* ........................two box grid.................. */
+.gr{
+  font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster Two', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Slabo 27px', serif;
+}
+.con p{
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,400;1,200&family=Kaushan+Script&family=Lobster+Two:ital@1&family=Merriweather:wght@700&family=Permanent+Marker&family=Sacramento&family=Satisfy&family=Slabo+27px&display=swap');
+.gr h3{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: fantasy;
+}
+#di{
+  border: 0.5px solid black;
+  height: 330px;
+ }
+/* ...........card2................. */
+.pro h1{
+  font-family: "Sofia", sans-serif;
+  text-shadow: 3px 3px 3px #ababab;
+  color: #005B41;
+  text-decoration: underline;
+}
+/* .....................div........................ */
+div.background {
+  background: url(./img1/back1.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 5%;
+  font-weight: bold;
+  color: rgb(39, 214, 42);
+}
+div.transbox  p:hover{
+  color: red;
+  text-decoration: underline;
+}
+/* ...........................latest blog......................... */
+#next h5{
+  text-decoration: underline;
+  color: #FF7676;
+}
+#next h5:hover{
+  color: #34d94a;
+}
+/* ................button...................... */
+  .con h1{
+    color: solid rgba(0, 0, 0, 0.916);
+    font-weight: bold;
+    
+  }
+
+/* .......................clint.................. */
+.minus h1{
+  font-family: "Sofia", sans-serif;
+  text-shadow: 3px 3px 3px #ababab;
+  color: #005B41;
+  text-decoration: underline;
+  word-spacing: 10px;
+}
+.minus h2{
+  color: #F3B664;
+}
+.one{
+    margin-top: 5px;
+  }
+ .nw h4{
+  text-decoration:solid;
+  color: aliceblue;
+ }
+ #wow img{
+  border-radius: 100%;
+ }
+#wow h2{
+  font-weight: bold;
+ }
+ /* ......................about................. */
+ .naya h1{
+  text-shadow: 3px 3px 3px #ababab;
+  color: #eff5f4;
+  text-decoration: underline;
+  word-spacing: 10px;
+ }
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,400;1,200&family=Kaushan+Script&family=Lobster+Two:ital@1&family=Merriweather:wght@700&family=Permanent+Marker&family=Sacramento&family=Satisfy&family=Slabo+27px&display=swap');
+.naya{
+  background-color: rgb(153, 183, 173);
+  border-style: inset;
+}
+.naya h1{
+  font-weight: bold;
+}
+.col-8{
+  background-color: rgb(196, 239, 196);
+}
+.con{
+  margin-top: 20px;
+}
+.my{
+  height: 130px;
+  width: 130px;
+  margin-left: 10px;
+}
+
+/* ..............................footer................................... */
+.fo{
+  background-color: rgb(182, 214, 182);
+  color: rgb(2, 0, 0);
+  margin-top: 02px;
+}
+.foot{
+  justify-content: end;
+}
+
+/* .fo .row{
+  text-align: center;
+}
+
+.footer .col{
+  padding: 10px;
+} */
+
+/* .................Responsive....................... */
+/* ................navbar........................ */
+@media(max-width:992px){
+  .car,.navbar,ul{
+      text-align: center;
+  }
+}
+@media(max-width:575px){
+  .car,.navbar,ul{
+    font-size: 17px;
+  }
+} 
+@media(max-width:430px){
+  .car,.navbar,ul{
+    font-size: 15px;
+  }
+} 
+/* ...............carausel..................... */
+.on h3{
+  font-size:90px;
+}
+.on h2{
+  font-size: 70px;
+}
+.on p{
+  font-size: 55px;
+}
+@media(max-width:992px){
+  .on h3,.image{
+    font-size: 36px;
+      text-align: center;
+  }
+}
+@media(max-width:575px){
+  .on h3{
+    text-align: start;
+    font-size: 17px;
+  }
+}
+@media(max-width:430px){
+.on h3{
+  text-align: start;
+  font-size: 15px;
+}
+}
+@media(max-width:375px){
+  .on h3,.image{
+    font-size: 14px;
+  }
+}
+@media(max-width:992px){
+  .on h2{
+    font-size: 20px;
+      text-align: center;
+  }
+}
+@media(max-width:575px){
+  .on h2{
+    font-size: 17px;
+  }
+}
+@media(max-width:430px){
+.on h2{
+  font-size: 15px;
+  text-align: start;
+}
+}
+@media(max-width:992px){
+  .on p{
+    font-size: 20px;
+      text-align: center;
+  }
+}
+@media(max-width:575px){
+  .on p{
+    font-size: 17px;
+  }
+}
+@media(max-width:430px){
+.on p{
+  font-size: 15px;
+  text-align: start;
+}
+}
+.buton{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+@media(max-width:992px){
+  .buton{
+    font-size: 20px;
+      text-align: center;
+  }
+}
+@media(max-width:575px){
+  .buton{
+    font-size: 17px;
+  }
+}
+@media(max-width:430px){
+.buton{
+  font-size: 15px;
+  text-align: start;
+}
+}
+@media(max-width:320px){
+  .buton{
+    font-size: 10px;
+    padding-bottom: 15px;
+  }
+  }
+
+  /*......................... card .................*/
+.demo1{
+    font-size:20px;
+}
+@media(max-width:992px){
+    .demo1,p{
+        text-align: center;
+    }
+}
+@media(max-width:575px){
+    .demo1,p{
+      font-size: 17px;
+    }
+}
+@media(max-width:430px){
+  .demo1,p{
+    font-size: 15px;
+  }
+}
+/* .card img{
+  width: 100%;
+}
+@media(max-width:992px){
+  .card img{  
+    width: 100%;
+    text-align: center;
+  }
+}
+@media(max-width:575px){
+  .card img{
+    font-size: 15px;
+    width: 100%;
+  }
+}
+@media(max-width:430px){
+.card img{
+  font-size: 10px;
+  width: 100%;
+}
+} */
+/* .................two box grid................... */
+
+.gr{
+  font-size:20px;
+}
+@media(max-width:992px){
+  .gr,h1,h3,.btn{
+      text-align: center;
+  }
+}
+@media(max-width:575px){
+  .gr,.btn,h1,h3{
+    font-size: 17px;
+  }
+}
+@media(max-width:430px){
+  .gr,.btn,h1,h3{
+    font-size: 15px;
+  }
+}
+@media(max-width:992px){
+  .mm{
+    display: none;
+  }
+  
+}
+@media(max-width:575px){
+  .mm{
+    display: none;
+  }
+  
+}
+@media(max-width:430px){
+  .mm{
+    display: none;
+  }
+  
+}
+/* .......................card2......................... */
+.pro{
+  font-size:20px;
+}
+@media(max-width:992px){
+  .pro,h1{
+      text-align: center;
+  }
+}
+@media(max-width:575px){
+  .pro,h1{
+    text-align: center;
+    font-size: 17px;
+  }
+}
+@media(max-width:430px){
+  .pro,h1{
+    text-align: center;
+    font-size: 15px;
+  }
+}
+.more{
+  text-align: center;
+  font-size:20px;
+}
+@media(max-width:992px){
+  .more,img,h3{
+      text-align: center;
+  }
+}
+@media(max-width:575px){
+  .more,img,h3{
+    text-align: center;
+    font-size: 17px;
+  }
+}
+@media(max-width:430px){
+  .more,img,h3{
+    text-align: center;
+    font-size: 15px;
+  }
+}
+/* ....................clint...................... */
+.minus{
+  font-size:20px;
+}
+@media(max-width:992px){
+  .minus,img,h1,h5,h3{
+      text-align: center;
+  }
+}
+@media(max-width:575px){
+  .minus,img,h1,h5,h3{
+    font-size: 17px;
+    text-align: center;
+  }
+}
+@media(max-width:430px){
+  .minus,img,h1,h5,h3{
+    font-size: 15px;
+    text-align: center;
+  }
+}
+/* ..........................defination........................... */
+.naya{
+  font-size:20px;
+}
+@media(max-width:992px){
+  .naya,h1{
+      text-align: center;
+  }
+}
+@media(max-width:575px){
+  .naya,h1{
+    font-size: 17px;
+  }
+}
+@media(max-width:430px){
+  .naya,h1{
+    font-size: 15px;
+  }
+}
+/* ...........................blog.................... */
+.up,p{
+  font-size:20px;
+}
+@media(max-width:992px){
+  .up,img,p{
+      text-align: center;
+  }
+}
+@media(max-width:575px){
+  .up,img.p{
+    font-size: 17px;
+  }
+}
+@media(max-width:430px){
+  .up,img,p{
+    font-size: 15px;
+  }
+}
+/* ..............div................... */
+.din{
+  font-size: 20px;
+}
+@media(max-width:992px){
+  .din,p,img{
+    text-align:center
+  }
+}
+@media(max-width:575px){
+  .din,p,img{
+    font-size: 17px;
+  }
+}
+@media(max-width:430px){
+  .din,p,img{
+    font-size: 15px;
+  }
+}
+/* ...............footer................ */
+.fo,tr,th{
+  font-size: 20px;
+}
+@media(max-width:992px){
+  .fo,tr,th,img{
+    text-align:center
+  }
+}
+@media(max-width:575px){
+  .fo,tr,th.img{
+    font-size: 17px;
+  }
+}
+@media(max-width:430px){
+  .fo,tr,th,img{
+    font-size: 15px;
+  }
+}
